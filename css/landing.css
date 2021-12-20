@@ -171,6 +171,12 @@ body {
   padding-right: 15px;
 }
 
+.img-responsive {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
 .container {
   margin: auto;
 }
@@ -178,22 +184,44 @@ body {
   .container {
     width: 750px;
   }
+
+  .desktop-only {
+    display: block;
+  }
+  .mobile-only {
+    display: none;
+  }
 }
 @media (min-width: 992px) and (max-width: 1199px) {
   .container {
     width: 970px;
+  }
+  .desktop-only {
+    display: block;
+  }
+  .mobile-only {
+    display: none;
   }
 }
 @media (min-width: 1200px) {
   .container {
     width: 1170px;
   }
+  .desktop-only {
+    display: block;
+  }
+  .mobile-only {
+    display: none;
+  }
 }
 
-.img-responsive {
-  display: block;
-  max-width: 100%;
-  height: auto;
+@media (max-width: 767px) {
+  .desktop-only {
+    display: none;
+  }
+  .mobile-only {
+    display: block;
+  }
 }
 
 section {
@@ -426,7 +454,7 @@ div {
 }
 @media (max-width: 767px) {
   #landing .appointment-wrapper {
-    padding: 60px 0px;
+    padding: 40px 0px;
   }
 
   #landing .appointment-wrapper .container {
@@ -463,6 +491,8 @@ div {
     .appointment-inside
     .title-sub {
     font-size: 14px;
+    margin: 0px;
+    line-height: 1.3;
   }
 }
 
@@ -471,7 +501,7 @@ div {
   .appointment-section
   .appointment-inside
   .icon-img {
-  min-height: 110px;
+  min-height: 100px;
 }
 #landing .appointment-wrapper .appointment-section .appointment-inside img {
   margin: 0 auto 20px;
@@ -498,7 +528,7 @@ div {
 }
 #landing .our-journey-wrapper .our-journey-section {
   background: linear-gradient(180deg, #e3f1ff 0%, #e2f9f1 100%);
-  padding: 50px 0 60px;
+  padding: 40px 0 50px;
 }
 #landing .our-journey-wrapper .our-journey-section .title-head {
   color: #024374;
@@ -728,11 +758,8 @@ div {
 }
 @media (max-width: 767px) {
   #landing .team-wrapper .team-section .team-section-inside .title-para {
-    font-size: 13px;
+    font-size: 12px;
     line-height: 18px;
-  }
-  #landing .team-wrapper .team-section .team-section-inside .title-para {
-    font-size: 15px;
   }
 }
 #landing .team-wrapper .team-section .team-section-inside .dr-img {
@@ -822,12 +849,13 @@ div {
   padding: 15px 0 0;
 }
 #landing .news-wrapper .news-section .title-sub {
-  font-weight: 600;
+  font-weight: 700;
   font-size: 16px;
   padding: 0 15px;
+  margin-bottom: 10px;
 }
 #landing .news-wrapper .news-section .title-para {
-  margin: 0 0 55px;
+  margin: 0 0 15px;
   font-size: 16px;
   padding: 0 15px;
   display: -webkit-box;
@@ -844,6 +872,9 @@ div {
 }
 #landing .news-wrapper .news-section .logos-img .indian-express-img {
   width: 180px;
+}
+#landing .news-wrapper .news-section .logos-img img {
+  margin: 0 auto;
 }
 #landing .success-stories-wrapper {
   background: linear-gradient(
@@ -1112,8 +1143,8 @@ div {
   background: linear-gradient(180deg, #d8f3ff 0%, #ebfffa 100%);
   border-radius: 15px;
   margin: 0 10px;
-  padding: 100px 0 40px;
-  margin: 120px 0 0;
+  padding: 40px 0;
+  margin: 40px 0;
   position: relative;
 }
 #landing .frequently-questions-wrapper .frequently-cat-img {
