@@ -301,7 +301,7 @@ div {
 }
 @media (max-width: 767px) {
   .btn-default {
-    width: 90%;
+    /*width: 90%;*/
     display: inline-block;
   }
 }
@@ -445,11 +445,11 @@ div {
   margin: 30px auto 0;
 }
 #landing .appointment-wrapper {
-  background: linear-gradient(
+  /*background: linear-gradient(
     180deg,
     #f4f5f5 75.1%,
     rgba(244, 245, 245, 0) 100%
-  );
+  );*/
   padding: 60px 0;
 }
 @media (max-width: 767px) {
@@ -675,7 +675,7 @@ div {
   width: 100%;
 }
 #landing .team-wrapper {
-  margin: 0 0 20px;
+  margin: 20px 0 20px;
 }
 #landing .team-wrapper .team-section {
   display: flex;
