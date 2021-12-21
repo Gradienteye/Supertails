@@ -903,7 +903,7 @@ div {
 
 @media (max-width: 991px) {
   #landing .success-stories-wrapper {
-    padding: 40px 0 60px;
+    padding: 40px 0;
   }
 }
 #landing .success-stories-wrapper .title-head {
@@ -1082,7 +1082,7 @@ div {
 }
 @media (max-width: 767px) {
   #landing .blog-wrapper {
-    margin: 0 0 60px;
+    margin: 0 0 20px;
   }
 }
 #landing .blog-wrapper .title-head {
@@ -1093,13 +1093,14 @@ div {
 @media (max-width: 767px) {
   #landing .blog-wrapper .blog-slider .slick-slide {
     padding: 0 10px;
-    margin: 0 8px;
+    margin: 0 8px 10px;
     width: 300px;
   }
 }
 
 #landing .blog-wrapper .blog-slider .slick-slide {
   padding: 0 5px;
+  margin: 0 0 10px;
 }
 #landing .blog-wrapper .blog-slider img {
   border-radius: 16px 16px 0px 0px;
