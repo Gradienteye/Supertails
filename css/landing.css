@@ -885,6 +885,22 @@ div {
   );
   padding: 40px 0;
 }
+
+#landing .success-stories-wrapper .stories-inside .right-svg {
+  position: absolute;
+}
+
+@media (max-width: 991px) {
+  #landing .success-stories-wrapper .stories-inside svg {
+    width: 35px;
+    height: 25px;
+  }
+}
+
+#landing .success-stories-wrapper .stories-inside p {
+  padding-right: 20px;
+}
+
 @media (max-width: 991px) {
   #landing .success-stories-wrapper {
     padding: 40px 0 60px;
@@ -924,6 +940,8 @@ div {
 @media (max-width: 767px) {
   #landing .success-stories-wrapper .slick-slide {
     padding: 0 10px;
+    margin: 30px 8px 0;
+    width: 300px;
   }
 }
 #landing .success-stories-wrapper .slick-prev:before,
@@ -964,6 +982,11 @@ div {
 }
 #landing .success-stories-wrapper .slick-dotted.slick-slider {
   margin-bottom: 0px;
+}
+@media (max-width: 767px) {
+  #landing .success-stories-wrapper .slick-dotted.slick-slider {
+    margin-left: 15px;
+  }
 }
 @media (max-width: 767px) {
   #landing .success-stories-wrapper .success-stories-slider .stories-inside {
@@ -1066,6 +1089,15 @@ div {
   color: #024374;
   margin: 0 0 30px;
 }
+
+@media (max-width: 767px) {
+  #landing .blog-wrapper .blog-slider .slick-slide {
+    padding: 0 10px;
+    margin: 0 8px;
+    width: 300px;
+  }
+}
+
 #landing .blog-wrapper .blog-slider .slick-slide {
   padding: 0 5px;
 }
@@ -1156,8 +1188,8 @@ div {
 }
 @media (max-width: 767px) {
   #landing .frequently-questions-wrapper .frequently-cat-img {
-    top: -130px;
-    width: 350px;
+    top: -70px;
+    width: 200px;
   }
 }
 #landing .frequently-questions-wrapper .questions-inside {
@@ -1226,6 +1258,59 @@ div {
 #landing .frequently-questions-wrapper .questions-inside .content {
   display: none;
   padding: 0px 0 40px;
+}
+
+.training-wrapper img {
+  width: 100%;
+}
+
+.banner-desktop {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 60px 0 0;
+}
+
+.banner-desktop .banner-info {
+  width: 40%;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1200px) {
+  .banner-desktop .banner-info {
+    width: 50%;
+  }
+}
+
+.banner-desktop .banner-info:last-child {
+  width: 60%;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1200px) {
+  .banner-desktop .banner-info:last-child {
+    width: 50%;
+  }
+}
+
+.banner-desktop h2 {
+  color: #408fcb;
+  text-align: left;
+  font-size: 42px;
+  line-height: 52px;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .banner-desktop h2 {
+    font-size: 36px;
+    line-height: 45px;
+  }
+}
+
+.banner-desktop h2 span {
+  color: #727070;
+}
+.banner-desktop .sub-head-text {
+  margin: 15px 0 30px;
+  color: #727070;
 }
 
 /*# sourceMappingURL=landing.css.map */

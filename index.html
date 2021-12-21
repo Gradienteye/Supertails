@@ -21,7 +21,42 @@
   <body>
     <section id="landing">
       <div class="banner-wrapper">
-        <div class="slider banner-slider">
+        <div class="container hidden-xs">
+          <div class="banner-desktop">
+            <div class="banner-info">
+              <h2 class="title-head">
+                80% of a <span>pet’s health</span> issues can be solved online.
+              </h2>
+              <h3 class="sub-head-text">Get a heath check up for your pet</h3>
+              <a href="#" class="btn-default"
+                >Book an appointment
+                <svg
+                  width="12"
+                  height="20"
+                  viewBox="0 0 12 20"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M1 1L11 10L1 19"
+                    stroke="white"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  ></path>
+                </svg>
+              </a>
+            </div>
+            <div class="banner-info">
+              <img
+                src="img/index/banner_desktop_1.jpeg"
+                class="img-responsive"
+              />
+            </div>
+          </div>
+        </div>
+
+        <div class="slider banner-slider visible-xs">
           <div>
             <img
               src="img/index/banner-slider-img1.jpg"
@@ -78,18 +113,11 @@
       <div class="pets-heath-wrapper">
         <div class="container">
           <h3 class="title-head">Get expert advice on</h3>
-          <img
-            src="img/index/dog-and-cat.png"
-            class="img-responsive desktop-only"
-          />
-          <img
-            src="img/index/dog_mobile.png"
-            class="img-responsive mobile-only"
-          />
+          <img src="img/index/dog-and-cat.png" class="img-responsive" />
         </div>
       </div>
 
-      <div class="container">
+      <div class="container visible-xs">
         <div class="common-wrapper">
           <h2 class="title-head">
             80% of a <span>pet’s health</span> issues can be solved online.
@@ -364,88 +392,181 @@
         </div>
       </div>
 
-      <div class="container success-stories-wrapper">
-        <h3 class="title-head">Success stories</h3>
+      <div class="success-stories-wrapper">
+        <div class="container">
+          <h3 class="title-head">Success stories</h3>
 
-        <div class="slider success-stories-slider">
-          <div>
-            <div class="stories-inside">
-              <p class="title-para">
-                We and our little rescued bird are really grateful to you. She
-                is much better since we consulted you. It would be a pleasure to
-                recommend you to our other animal lover groups. Thankyou
-                supertails
-              </p>
-              <div class="picture-text-section">
-                <div class="picture-text-inside">
-                  <img
-                    src="img/index/stories-circle-img1.jpg"
-                    class="img-responsive"
-                  />
-                </div>
-                <div class="picture-text-inside">
-                  <p class="star">
-                    <i class="fas fa-star"></i><i class="fas fa-star"></i
-                    ><i class="fas fa-star"></i><i class="fas fa-star"></i
-                    ><i class="fas fa-star"></i>
-                  </p>
-                  <h4 class="title-sub">TJ Mukherjee</h4>
-                  <p class="title-para">Pet parent of Jhuttu</p>
+          <div class="slider success-stories-slider">
+            <div>
+              <div class="stories-inside">
+                <p class="title-para">
+                  <svg
+                    width="50"
+                    height="35"
+                    viewBox="0 0 80 62"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                      d="M78.9326 46.3091L78.669 30.6198L71.8138 29.7798L64.957 28.9399L70.6615 16.1349C73.8007 9.09202 76.0028 2.76914 75.557 2.08235C75.1112 1.39557 72.2371 0.806441 69.171 0.771828C63.8314 0.711548 63.192 1.34644 54.1802 15.6713L44.7662 30.6336L45.0415 45.6901L45.3183 60.7467L62.2573 61.3726L79.1979 62L78.9326 46.3091ZM33.9226 59.3536C34.3985 58.2441 34.654 51.2114 34.4869 43.727L34.1861 30.1176L27.1903 29.5704C23.3418 29.2677 20.2018 28.4697 20.2107 27.7941C20.2195 27.1186 22.5165 21.599 25.315 15.5284C31.8414 1.37074 31.8071 0.350018 24.8035 0.270953C18.4622 0.199365 16.8659 1.79801 6.57694 18.5136C0.581339 28.2573 0.42289 28.9068 0.214871 44.7509L0.00156709 60.9976L16.5278 61.1842C28.7557 61.3223 33.2801 60.8456 33.9226 59.3536Z"
+                      fill="#C9E5FB"
+                      fill-opacity="0.87"
+                    />
+                  </svg>
+                  We and our little rescued bird are really grateful to you. She
+                  is much better since we consulted you. It would be a pleasure
+                  to recommend you to our other animal lover groups. Thankyou
+                  supertails
+                  <svg
+                    class="right-svg"
+                    width="50"
+                    height="35"
+                    viewBox="0 0 80 62"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                      d="M1.09383 15.6919L1.38354 31.3823L8.23988 32.2336L15.0978 33.0848L9.41478 45.881C6.28744 52.919 4.096 59.2385 4.54289 59.9261C4.98978 60.6136 7.86483 61.2075 10.9308 61.2471C16.2703 61.3161 16.9086 60.6823 25.8962 46.3716L35.2849 31.4241L34.9847 16.3665L34.6828 1.30889L17.7434 0.655211L0.80249 0L1.09383 15.6919ZM46.0804 2.72063C45.6063 3.82942 45.3626 10.862 45.542 18.3469L45.8655 31.9574L52.8619 32.5161C56.7108 32.8251 59.852 33.6283 59.8443 34.3039C59.8365 34.9794 57.5489 40.4955 54.7606 46.5618C48.2579 60.7093 48.294 61.7301 55.2974 61.8207C61.6386 61.9026 63.2322 60.3065 73.4929 43.6071C79.472 33.8728 79.6294 33.2236 79.8111 17.3792L79.9973 1.13212L63.4714 0.91847C51.2438 0.760392 46.7203 1.22963 46.0804 2.72063Z"
+                      fill="#C9E5FB"
+                      fill-opacity="0.87"
+                    />
+                  </svg>
+                </p>
+                <div class="picture-text-section">
+                  <div class="picture-text-inside">
+                    <img
+                      src="img/index/stories-circle-img1.jpg"
+                      class="img-responsive"
+                    />
+                  </div>
+                  <div class="picture-text-inside">
+                    <p class="star">
+                      <i class="fas fa-star"></i><i class="fas fa-star"></i
+                      ><i class="fas fa-star"></i><i class="fas fa-star"></i
+                      ><i class="fas fa-star"></i>
+                    </p>
+                    <h4 class="title-sub">TJ Mukherjee</h4>
+                    <p class="title-para">Pet parent of Jhuttu</p>
+                  </div>
                 </div>
               </div>
             </div>
-          </div>
 
-          <div>
-            <div class="stories-inside">
-              <p class="title-para">
-                I found our best and Google found his perfect healer and curer
-                in Dr. Archith Sridhar. We are utmost grateful and appreciative
-                of his patience and the hope that he’s given us with his
-                treatment and therapy.
-              </p>
-              <div class="picture-text-section">
-                <div class="picture-text-inside">
-                  <img
-                    src="img/index/stories-circle-img2.jpg"
-                    class="img-responsive"
-                  />
-                </div>
-                <div class="picture-text-inside">
-                  <p class="star">
-                    <i class="fas fa-star"></i><i class="fas fa-star"></i
-                    ><i class="fas fa-star"></i><i class="fas fa-star"></i
-                    ><i class="fas fa-star"></i>
-                  </p>
-                  <h4 class="title-sub">Vidhi Arya</h4>
-                  <p class="title-para">Pet parent of Google</p>
+            <div>
+              <div class="stories-inside">
+                <p class="title-para">
+                  <svg
+                    width="50"
+                    height="35"
+                    viewBox="0 0 80 62"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                      d="M78.9326 46.3091L78.669 30.6198L71.8138 29.7798L64.957 28.9399L70.6615 16.1349C73.8007 9.09202 76.0028 2.76914 75.557 2.08235C75.1112 1.39557 72.2371 0.806441 69.171 0.771828C63.8314 0.711548 63.192 1.34644 54.1802 15.6713L44.7662 30.6336L45.0415 45.6901L45.3183 60.7467L62.2573 61.3726L79.1979 62L78.9326 46.3091ZM33.9226 59.3536C34.3985 58.2441 34.654 51.2114 34.4869 43.727L34.1861 30.1176L27.1903 29.5704C23.3418 29.2677 20.2018 28.4697 20.2107 27.7941C20.2195 27.1186 22.5165 21.599 25.315 15.5284C31.8414 1.37074 31.8071 0.350018 24.8035 0.270953C18.4622 0.199365 16.8659 1.79801 6.57694 18.5136C0.581339 28.2573 0.42289 28.9068 0.214871 44.7509L0.00156709 60.9976L16.5278 61.1842C28.7557 61.3223 33.2801 60.8456 33.9226 59.3536Z"
+                      fill="#C9E5FB"
+                      fill-opacity="0.87"
+                    />
+                  </svg>
+                  I found our best and Google found his perfect healer and curer
+                  in Dr. Archith Sridhar. We are utmost grateful and
+                  appreciative of his patience and the hope that he’s given us
+                  with his treatment and therapy.<svg
+                    class="right-svg"
+                    width="50"
+                    height="35"
+                    viewBox="0 0 80 62"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                      d="M1.09383 15.6919L1.38354 31.3823L8.23988 32.2336L15.0978 33.0848L9.41478 45.881C6.28744 52.919 4.096 59.2385 4.54289 59.9261C4.98978 60.6136 7.86483 61.2075 10.9308 61.2471C16.2703 61.3161 16.9086 60.6823 25.8962 46.3716L35.2849 31.4241L34.9847 16.3665L34.6828 1.30889L17.7434 0.655211L0.80249 0L1.09383 15.6919ZM46.0804 2.72063C45.6063 3.82942 45.3626 10.862 45.542 18.3469L45.8655 31.9574L52.8619 32.5161C56.7108 32.8251 59.852 33.6283 59.8443 34.3039C59.8365 34.9794 57.5489 40.4955 54.7606 46.5618C48.2579 60.7093 48.294 61.7301 55.2974 61.8207C61.6386 61.9026 63.2322 60.3065 73.4929 43.6071C79.472 33.8728 79.6294 33.2236 79.8111 17.3792L79.9973 1.13212L63.4714 0.91847C51.2438 0.760392 46.7203 1.22963 46.0804 2.72063Z"
+                      fill="#C9E5FB"
+                      fill-opacity="0.87"
+                    />
+                  </svg>
+                </p>
+                <div class="picture-text-section">
+                  <div class="picture-text-inside">
+                    <img
+                      src="img/index/stories-circle-img2.jpg"
+                      class="img-responsive"
+                    />
+                  </div>
+                  <div class="picture-text-inside">
+                    <p class="star">
+                      <i class="fas fa-star"></i><i class="fas fa-star"></i
+                      ><i class="fas fa-star"></i><i class="fas fa-star"></i
+                      ><i class="fas fa-star"></i>
+                    </p>
+                    <h4 class="title-sub">Vidhi Arya</h4>
+                    <p class="title-para">Pet parent of Google</p>
+                  </div>
                 </div>
               </div>
             </div>
-          </div>
 
-          <div>
-            <div class="stories-inside">
-              <p class="title-para">
-                The doctors are so very systematic and friendly, i believe as
-                though i have a family vet for my young Bosco, someone i can
-                reach out to anytime despite the distance.
-              </p>
-              <div class="picture-text-section">
-                <div class="picture-text-inside">
-                  <img
-                    src="img/index/stories-circle-img1.jpg"
-                    class="img-responsive"
-                  />
-                </div>
-                <div class="picture-text-inside">
-                  <p class="star">
-                    <i class="fas fa-star"></i><i class="fas fa-star"></i
-                    ><i class="fas fa-star"></i><i class="fas fa-star"></i
-                    ><i class="fas fa-star"></i>
-                  </p>
-                  <h4 class="title-sub">Niketa Bakshi</h4>
-                  <p class="title-para">Pet parent of Bosco</p>
+            <div>
+              <div class="stories-inside">
+                <p class="title-para">
+                  <svg
+                    width="50"
+                    height="35"
+                    viewBox="0 0 80 62"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                      d="M78.9326 46.3091L78.669 30.6198L71.8138 29.7798L64.957 28.9399L70.6615 16.1349C73.8007 9.09202 76.0028 2.76914 75.557 2.08235C75.1112 1.39557 72.2371 0.806441 69.171 0.771828C63.8314 0.711548 63.192 1.34644 54.1802 15.6713L44.7662 30.6336L45.0415 45.6901L45.3183 60.7467L62.2573 61.3726L79.1979 62L78.9326 46.3091ZM33.9226 59.3536C34.3985 58.2441 34.654 51.2114 34.4869 43.727L34.1861 30.1176L27.1903 29.5704C23.3418 29.2677 20.2018 28.4697 20.2107 27.7941C20.2195 27.1186 22.5165 21.599 25.315 15.5284C31.8414 1.37074 31.8071 0.350018 24.8035 0.270953C18.4622 0.199365 16.8659 1.79801 6.57694 18.5136C0.581339 28.2573 0.42289 28.9068 0.214871 44.7509L0.00156709 60.9976L16.5278 61.1842C28.7557 61.3223 33.2801 60.8456 33.9226 59.3536Z"
+                      fill="#C9E5FB"
+                      fill-opacity="0.87"
+                    />
+                  </svg>
+                  The doctors are so very systematic and friendly, i believe as
+                  though i have a family vet for my young Bosco, someone i can
+                  reach out to anytime despite the distance.<svg
+                    class="right-svg"
+                    width="50"
+                    height="35"
+                    viewBox="0 0 80 62"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                      d="M1.09383 15.6919L1.38354 31.3823L8.23988 32.2336L15.0978 33.0848L9.41478 45.881C6.28744 52.919 4.096 59.2385 4.54289 59.9261C4.98978 60.6136 7.86483 61.2075 10.9308 61.2471C16.2703 61.3161 16.9086 60.6823 25.8962 46.3716L35.2849 31.4241L34.9847 16.3665L34.6828 1.30889L17.7434 0.655211L0.80249 0L1.09383 15.6919ZM46.0804 2.72063C45.6063 3.82942 45.3626 10.862 45.542 18.3469L45.8655 31.9574L52.8619 32.5161C56.7108 32.8251 59.852 33.6283 59.8443 34.3039C59.8365 34.9794 57.5489 40.4955 54.7606 46.5618C48.2579 60.7093 48.294 61.7301 55.2974 61.8207C61.6386 61.9026 63.2322 60.3065 73.4929 43.6071C79.472 33.8728 79.6294 33.2236 79.8111 17.3792L79.9973 1.13212L63.4714 0.91847C51.2438 0.760392 46.7203 1.22963 46.0804 2.72063Z"
+                      fill="#C9E5FB"
+                      fill-opacity="0.87"
+                    />
+                  </svg>
+                </p>
+                <div class="picture-text-section">
+                  <div class="picture-text-inside">
+                    <img
+                      src="img/index/stories-circle-img1.jpg"
+                      class="img-responsive"
+                    />
+                  </div>
+                  <div class="picture-text-inside">
+                    <p class="star">
+                      <i class="fas fa-star"></i><i class="fas fa-star"></i
+                      ><i class="fas fa-star"></i><i class="fas fa-star"></i
+                      ><i class="fas fa-star"></i>
+                    </p>
+                    <h4 class="title-sub">Niketa Bakshi</h4>
+                    <p class="title-para">Pet parent of Bosco</p>
+                  </div>
                 </div>
               </div>
             </div>
@@ -796,8 +917,8 @@
               settings: {
                 slidesToShow: 1,
                 slidesToScroll: 1,
-                //                    variableWidth: true,
-                dots: true,
+                variableWidth: true,
+                //                      dots: true,
               },
             },
           ],
@@ -826,8 +947,8 @@
               settings: {
                 slidesToShow: 1,
                 slidesToScroll: 1,
-                //                    variableWidth: true,
-                dots: true,
+                variableWidth: true,
+                //                      dots: true,
               },
             },
           ],
